@@ -1,0 +1,13 @@
+suite,threads,io_limit,runs,avg_single_ms,avg_multi_ms,std_multi_ms,speedup,verified
+thread_scaling,1,2,10,4588.28,4540.49,351.33,1.01,True
+thread_scaling,2,2,10,4396.93,2329.7,17.43,1.89,True
+thread_scaling,3,2,10,4403.43,1597.71,13.26,2.76,True
+thread_scaling,4,2,10,4390.38,1225.22,16.75,3.58,True
+thread_scaling,5,2,10,4408.83,1013.39,16.22,4.35,True
+thread_scaling,6,2,10,4402.06,871.75,26.82,5.05,True
+thread_scaling,7,2,10,4444.7,878.6,43.73,5.06,True
+thread_scaling,8,2,10,4421.97,854.51,39.44,5.17,True
+io_semaphore,6,1,10,4412.47,891.07,10.73,4.95,True
+io_semaphore,6,2,10,4374.8,855.95,12.15,5.11,True
+io_semaphore,6,4,10,4360.18,849.58,16.25,5.13,True
+io_semaphore,6,6,10,4411.19,861.68,25.52,5.12,True
